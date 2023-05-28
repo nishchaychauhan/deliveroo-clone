@@ -14,17 +14,17 @@ const Categories = () => {
         >
             {/* Category Card */}
 
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
-            <CategoryCard imgUrl='https://links.papareact.com/gn7' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
+            <CategoryCard imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg' title='testing' />
         </ScrollView>
     )
 }
