@@ -9,17 +9,31 @@ import {
   AdjustmentsVerticalIcon,
 } from "react-native-heroicons/outline";
 import FeaturedRow from '../components/FeaturedRow';
+import sanityClient from "../sanity";
+
 const HomeScreen = () => {
   const navigation = useNavigation();
   const [featuredCategories, setFeaturedCategories] = useState([]);
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false,
-    });
-  }, []);
+    })});
+
+    useEffect(() => { 
+      sanityClient.fetch(
+        `*[_type == "featured"] {
+        ...,
+        restaurants[]->{
+          ...,
+          dishes[] ->
+        }
+      }`).then((data) => {
+        setFeaturedCategories(data);
+      })
+    }, []);
 
 
-
+  //console.log(featuredCategories, "😘😘");
   return (
     <SafeAreaView className="bg-white pt-10">
       {/*Header */}
