@@ -10,6 +10,7 @@ import {
 } from "react-native-heroicons/outline";
 import FeaturedRow from '../components/FeaturedRow';
 import sanityClient from "../sanity";
+import category from '../sanity/schemas/category';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -17,11 +18,12 @@ const HomeScreen = () => {
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false,
-    })});
+    })
+  });
 
-    useEffect(() => { 
-      sanityClient.fetch(
-        `*[_type == "featured"] {
+  useEffect(() => {
+    sanityClient.fetch(
+      `*[_type == "featured"] {
         ...,
         restaurants[]->{
           ...,
@@ -30,10 +32,10 @@ const HomeScreen = () => {
       }`).then((data) => {
         setFeaturedCategories(data);
       })
-    }, []);
+  }, []);
 
 
-  //console.log(featuredCategories, "😘😘");
+  console.log(featuredCategories, "😘😘");
   return (
     <SafeAreaView className="bg-white pt-10">
       {/*Header */}
@@ -77,23 +79,7 @@ const HomeScreen = () => {
         <Categories />
 
         {/* Featured */}
-        <FeaturedRow
-          id="123"
-          title="Featured"
-          description="Paid placements from our partners"
-        />
 
-        <FeaturedRow
-          id="1234"
-          title="Tasty Discounts"
-          description="Everyone's been enjoying these juicy discounts!"
-        />
-
-        <FeaturedRow
-          id="12345"
-          title="Offers near you!"
-          description="Why not support your local restaurant tonight!"
-        />
       </ScrollView>
     </SafeAreaView>
   )
