@@ -22,7 +22,7 @@ const FeaturedRow = ({ title, description }) => {
             >
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -35,7 +35,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -48,7 +48,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -61,7 +61,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -74,7 +74,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -87,7 +87,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -100,7 +100,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -113,7 +113,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
@@ -126,7 +126,7 @@ const FeaturedRow = ({ title, description }) => {
 
                 <RestaurantCard
                     id={123}
-                    imgUrl='https://links.papareact.com/gn7'
+                    imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                     title="Yo! Sushi"
                     rating={4.5}
                     genre="Japanese"
