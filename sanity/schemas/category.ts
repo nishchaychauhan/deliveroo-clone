@@ -10,6 +10,7 @@ export default defineType({
       title: 'Category Name',
       type: 'string',
     },
+    
     {
       name: 'image',
       title: 'Image of Category',
